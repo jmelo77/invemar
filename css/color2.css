@@ -1,0 +1,140 @@
+/*==========================================================================================
+								Theme Primary Colors										
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-stars span:after,
+/*.tg-btn:hover,*/
+.tg-featuretitle h2 span,
+.tg-populartourtitle h3 a:hover,
+.tg-pricearea h4,
+.tg-destinations li a:hover h3,
+.tg-guidecontenthead h4:hover a,
+.tg-bgdark .tg-destinations li a em,
+.tg-panel h4:hover,
+.tg-panel h4.active,
+.tg-contactinfoicon,
+.tg-contactinfoicon i,
+.tg-dropdownusermenu li a:hover,
+.tg-newcontent .tg-pricearea h4,
+.tg-widget.tg-widgetcatagories ul li:hover a,
+.tg-widget.tg-widgetcatagories ul li:hover:before,
+.tg-formicon i,
+.tg-bookingtabs .tg-themetabnav li:hover a span,
+.tg-bookingtabs .tg-themetabnav li.active a span,
+.tg-liststyle li:before,
+.tg-btnedit,
+.tg-widgetpersonprice ul li .tg-totalpayment em,
+.tg-widgetdashboard ul li:hover a,
+.tg-widgetdashboard ul li:hover a i,
+.tg-widgetdashboard ul li.selected a,
+.tg-widgetdashboard ul li.selected i,
+.tg-subtotal span,
+.tg-reply:hover,
+.tg-prevpost a:hover h2,
+.tg-nextpost a:hover h2,
+.tg-socialicons li a:hover i,
+.location_indicator:before{ color: #676767; }
+
+.tg-btn:hover{ background:#003580; color: #FFF; border-radius: 20px;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+/*.tg-btn,*/
+.tg-descount,
+.tg-formnewsletter button,
+.tg-locationname,
+.tg-btnplay,
+.tg-findtourvfour,
+.tg-btntoggleform,
+.tg-pagination ul li.tg-active a,
+.tg-pagination ul li a:hover,
+.tg-select .dropdown-menu>.active>a,
+.tg-select .dropdown-menu>.active>a:focus,
+.tg-select .dropdown-menu>.active>a:hover,
+.tg-select .dropdown-menu.inner li a:hover,
+.tg-bookingtabs .tg-themetabnav li:hover a:before,
+.tg-bookingtabs .tg-themetabnav li.active a:before,
+.tg-couponapply .form-group .tg-btn:hover,
+.tg-widgetpersonprice ul li .tg-btn,
+.tg-dashboardcontent table tr .tg-btnview:hover,
+.tg-fulltourdetail .tg-totalprice .tg-totalpayment,
+.tg-imgholder .tg-btn:hover,
+.tg-btnarea .tg-btn,
+.tg-pkgplanfoot .tg-btn:hover,
+.tg-formleavecomment .tg-btn{ background:#FF3300; }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background:#FF3300 !important;}
+
+.tg-btn{ background:#FF3300; border-radius: 20px; /*font-weight: bold;*/}
+
+.tg-btnaddtocart:hover{ background:#17B84A; border: 1px solid #139B40; }
+
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus
+.form-control:focus,
+.tg-reply:hover{ border-color: #FF3300; }
+/*==========================================================================================
+								Theme Secondary Colors										
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+.tg-infonav ul li span a,
+.tg-socialsignin .tg-btn:hover,
+.tg-widgettext .tg-widgetcontent > a,
+.tg-footercolumn .tg-widgetcontent ul li a:hover,
+.tg-footercolumn .tg-widgetcontent ul li a:hover:before,
+.tg-headervtwo .tg-navigation ul li a:hover,
+.tg-headervtwo .tg-navigation ul li.current-menu-item > a,
+.tg-trendingtrip figcaption .tg-pricearea h4,
+.tg-totaltours,
+.tg-btnviewall,
+.tg-search .tg-destinations li a em,
+.tg-addnav ul li:hover a{ /*color: #fee133;*/ /*color: #FFF;*/ /*color:#FF3300;*/ color:#666666; /*text-shadow: 1px 1px 1px rgba(255, 55, 0, 0.2);*/ text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.2);}
+
+.tg-breadcrumb li:hover a{ /*color: #fee133;*/ color: #333333; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-socialsignin .tg-btn,
+.tg-navigation ul li a:before,
+.tg-btnvtwo:before,
+.tg-themetabsvtwo .tg-themetabnav li a:before,
+.tg-btndropdown,
+.tg-topdestination figure .tg-btnviewall:before,
+/*.tg-availhead,*/
+/*.navbar-header,*/
+.tg-btnroundprev:hover,
+.tg-btnroundnext:hover{ /*background:#fee133;*/ /*background: #FFCC00;*/ /*background:#CCCCCC;*/ /*background:#2FA7CE;*/ }
+
+.navbar-header { background: transparent; }
+
+/*.tg-btn:hover{ color:#FFF; }*/
+
+.tg-btnaddtocart{ /*background: #FF0000;
+    border: 1px solid #CC0033;*/
+	/*background: #007bff;*/
+	background:#EEE;
+    /*border: 1px solid #0069DD;*/
+	border: 1px solid #ccc;
+    /*border-radius: 20px;*/
+	width:100%;
+	border-radius: 6px; }
+
+/*=============================================
+			Theme Border Color
+=============================================*/
+blockquote,
+.tg-btnroundprev:hover,
+.tg-btnroundnext:hover{ /*border-color: #fee133;*/ /*border-color: #FFCC00;*/ border-color:#CCCCCC;
+ }

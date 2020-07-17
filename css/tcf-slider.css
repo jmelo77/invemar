@@ -1,0 +1,117 @@
+.tcf-slider-wrap,
+.tcf-slider-wrap:before,
+.tcf-slider-wrap:after {
+  clear: both;
+  float: none; }
+
+.tcf-slider-wrap {
+  border-radius: 4px;
+  border: 1px solid #DDD;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.tcf-slider-prev-wrap,
+.tcf-slider-next-wrap {
+  position: absolute;
+  cursor: pointer;
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  outline: none;
+  z-index: 2;
+  color: #333; }
+
+.tcf-slider-prev-wrap {
+  top: 0px;
+  left: 0px; }
+
+.tcf-slider-next-wrap {
+  top: 0px;
+  right: 0px; }
+
+.tcf-slider-prev-btn,
+.tcf-slider-next-btn {
+  font-size: 1.5em;
+  position: relative;
+  top: 47%;
+  transform: translateY(-47%);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.5;
+  display: block !important; }
+
+.tcf-slider-prev-wrap:hover,
+.tcf-slider-next-wrap:hover,
+.tcf-slider-prev-wrap:focus,
+.tcf-slider-next-wrap:focus {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.tcf-slider-image {
+  width: 100%;
+/*height: auto;*/
+/*height: 127.53px;*/
+/*height: 130px;*/
+/*height: 144.81px;*/
+  height: 174.81px;}
+
+.tcf-abs {
+  position: absolute;
+  top: 0px; }
+
+.tcf-slider-caption-wrap {
+  color: #333;
+  width: 80%;
+  padding: 0% 10%;
+  text-align: center;
+  position: absolute;
+  bottom: 40px; }
+
+.tcf-slider-crumb-wrap {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  font-size: 2em;
+  text-align: center; }
+
+.tcf-slider-crumb {
+  cursor: pointer;
+  outline: none;
+  color: #333;
+  margin-right: 5px; }
+
+.tcf-slider-crumb:last-child {
+  margin-right: 0px; }
+
+.tcf-slider-crumb.active {
+  color: #F1F1F1; }
+
+.tcf-slider-crumb:hover:before,
+.tcf-slider-crumb:focus:before {
+  content: "\02023";
+  position: absolute;
+  top: -15px;
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(90deg); }
+  
+  
+@media only screen and (max-width:1024px){
+.tcf-slider-image {
+  width: 100%;
+  height: auto;
+ }
+}  

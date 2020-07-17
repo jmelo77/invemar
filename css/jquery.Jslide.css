@@ -1,0 +1,209 @@
+/*
+ * Jslide - jQuery Plugin
+ * 
+ * @author		hom
+ * @license		http://lab.a2.kiiiick.com/MIT-LICENSE.txt
+ * @copyright	Copyright (C) KICKcreative Co., All Rights Reserved.
+ * 
+ */
+
+.Jslide-wrap {
+	width:100%; height:100%;
+	position:fixed;
+	*position:absolute;
+	top:0; left:0;
+	z-index: 99;
+}
+
+.Jslide-wrap.working .Jslide-bg {
+	background-color: #fff;
+	opacity:.8;
+	filter:alpha(opacity=80);
+}
+
+.Jslide-bg {
+	display: block;
+	width:100%; height:100%;
+	position: absolute;
+	top:0; left:0;
+	background-color: #ccc;
+	z-index:1;
+}
+
+.Jslide-loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 5px;
+	z-index: 3;
+	background-color: #000;
+	z-index:2;
+}
+
+.Jslide-container {
+	position: absolute;
+	width:100%; height:100%;
+	overflow: hidden;
+	margin: 0 auto;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:3;
+}
+
+.Jslide-carousel {
+	margin: 0;
+	padding: 0;
+	position:absolute;
+	left:0; top:0;
+	height:100%;
+	z-index: 1;
+}
+
+.Jslide-carousel li {
+	position:absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 800px;
+	float: left;
+	/*opacity:.2;
+	filter:alpha(opacity=20);*/
+    opacity:.4;
+	filter:alpha(opacity=40);
+	cursor: pointer;
+}
+
+.Jslide-carousel li.step {
+	opacity:1;
+	filter:alpha(opacity=100);
+	cursor: default;
+}
+
+.Jslide-nav {
+	
+}
+.Jslide-next,
+.Jslide-prev {
+	position:absolute;
+	/*background-color: #000;*/
+	color:#fff;
+	width:100px; height:100px;
+	line-height:100px;
+	text-align:center;
+	/*font-size: 20px;*/
+	font-size: 100px;
+	top: 50%;
+	margin-top: -50px;
+	cursor:pointer;
+	opacity:.8;
+	filter:alpha(opacity=80);
+	z-index: 2;
+}
+.Jslide-next:hover,
+.Jslide-prev:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.Jslide-next {
+	right:-1px;
+}
+.Jslide-prev {
+	left:-1px;
+}
+
+.Jslide-page-wrap {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 3;
+}
+.Jslide-page-container {
+	position: absolute;
+	left: 0; top: 0;
+	height:100px;
+	background-color: #fff;
+	/*opacity:.7;
+	filter:alpha(opacity=70);*/
+	opacity:.9;
+	filter:alpha(opacity=90);
+}
+.Jslide-page {
+	background-color: #000;
+	width:12px; height:100%;
+	float: left;
+	cursor:pointer;
+	/*opacity:0;*/
+	opacity:0.4;
+	/*filter:alpha(opacity=0);*/
+	filter:alpha(opacity=40);
+}
+.Jslide-page.step {
+	/*opacity:.3;*/
+	opacity:1;
+	/*filter:alpha(opacity=30);*/
+	filter:alpha(opacity=100);
+}
+.Jslide-page:hover {
+	/*opacity:.6;
+	filter:alpha(opacity=60);*/
+	opacity:.9;
+	filter:alpha(opacity=90);
+
+}
+
+.Jslide-broad {
+	position: absolute;
+	top: 20px; left: 20px;
+	background-color: #fff;
+	z-index: 2;
+	padding: 20px;
+	width:25%;
+	word-break:break-all;
+	/*opacity: .8;
+	filter:alpha(opacity=80);*/
+    opacity: .9;
+	filter:alpha(opacity=90);
+}
+
+.Jslide-broad h1,
+.Jslide-broad p {
+	margin: 0;
+	padding: 0;
+}
+.Jslide-broad h1 {
+	margin-bottom: 10px;
+}
+.Jslide-broad p {
+	
+}
+
+.Jslide-close {
+	position: absolute;
+	top: 0; right: 0;
+	width:100px; height:100px;
+	background-color: #000;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	font-size: 20px;
+	cursor: pointer;
+	opacity:.8;
+	filter:alpha(opacity=80);
+	z-index: 2;
+}
+.Jslide-close:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.Jslide-hitarea {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
